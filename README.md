@@ -52,11 +52,15 @@ GET /api/beststories/top/20
 
 # Assumptions Made
 
+- The project is expected to remain relatively small in scope, so a lightweight architecture was chosen.
+
 - The Hacker News /beststories.json endpoint returns stories in descending order of score (checked manually).
 
 - Cache timeouts of 10 seconds for the beststories list and 1 minute for individual story details are sufficient for responsiveness while reducing API load.
 
 # Possible Enhancements
+
+- Refactor toward Clean Architecture if the project grows in complexity or requires long-term maintainability.
 
 - Introduce retry policies (e.g. Polly) on HTTP client
 
