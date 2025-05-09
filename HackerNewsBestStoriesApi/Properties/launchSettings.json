@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "HackerNewsBestStoriesApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:50372;http://localhost:50373"
+    }
+  }
+}
